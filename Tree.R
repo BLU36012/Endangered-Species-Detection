@@ -41,7 +41,7 @@ train_species <- unique(train$scientific_name)
 fold_of <- setNames(sample(rep(1:10, length.out = length(train_species))), train_species)
 cv_folds <- unname(fold_of[train$scientific_name])
 
-# ---- Fit the tree with all features ----------------------------------------
+# Fit the tree with all features=
 f <- as.formula(paste("status ~", paste(c(green, yellow, added), collapse = " + ")))
 full_tree <- rpart(f, data = train, method = "class",
                    parms   = list(split = "gini", prior = c(0.5, 0.5)),
@@ -50,14 +50,14 @@ full_tree <- rpart(f, data = train, method = "class",
 printcp(full_tree)
 plotcp(full_tree)
 
-# ---- Prune with the 1-SE rule ----------------------------------------------
+# Pruning
 ct    <- full_tree$cptable
 best  <- which.min(ct[, "xerror"])
 limit <- ct[best, "xerror"] + ct[best, "xstd"]
 pick  <- which(ct[, "xerror"] <= limit)[1]
 tree  <- prune(full_tree, cp = ct[pick, "CP"])
 
-# ---- Plot (shows in RStudio's Plots pane; no file is saved) ----------------
+# Plot the tree
 wrap_labels <- function(x, labs, digits, varlen, faclen) {
   sapply(labs, function(l) paste(strwrap(gsub(",", ", ", l), width = 30), collapse = "\n"))
 }
