@@ -1,0 +1,47 @@
+"feature","coef"
+"species_groupCorals",1.4663
+"fyr_recommendationUplist",1.3422
+"species_groupArachnids",-1.1442
+"`species_groupConifers and Cycads`",0.9014
+"ch_typeOther",-0.8209
+"has_recovery_doc",0.7084
+"rec_plan_stageExempt",-0.6217
+"listing_year",0.5104
+"`fyr_recommendationNo change`",-0.4482
+"rec_plan_stageOther",-0.4303
+"`fws_lead_regionRegion 9`",-0.4287
+"species_groupLichens",-0.4245
+"`fws_lead_regionRegion 4`",0.3572
+"is_population_segment",0.3546
+"`fws_lead_regionRegion 6`",0.354
+"`fws_lead_regionRegion 8`",0.3483
+"has_five_year_review",0.3377
+"`species_groupFlowering Plants`",-0.2847
+"rec_n_documents",-0.2845
+"`species_groupFerns and Allies`",-0.2638
+"rec_plan_stageOutline",-0.2516
+"`fws_lead_regionRegion 2`",0.243
+"`fws_lead_regionRegion 5`",0.2361
+"`fws_lead_regionRegion 3`",0.2321
+"rec_plan_stageFinal",-0.2198
+"species_groupReptiles",0.2161
+"species_groupInsects",-0.2138
+"rec_has_final_plan",-0.2105
+"species_groupClams",-0.1761
+"`fws_lead_regionRegion 1`",-0.1739
+"`fws_lead_regionRegion 7`",0.1619
+"species_groupBirds",-0.1597
+"ch_total_miles",0.1288
+"`ch_typeNot Prudent`",-0.1219
+"species_groupMammals",-0.1095
+"species_groupSnails",-0.1092
+"species_groupFishes",0.0899
+"fyr_review_in_progress",-0.0707
+"ch_total_acres",-0.0691
+"fyr_recommendationDownlist",0.0664
+"species_groupCrustaceans",-0.0628
+"rec_plan_revision",0.0524
+"`fws_lead_regionRegion 10`",0.0447
+"has_critical_habitat",0.0355
+"species_groupUnknown",-0.0355
+"ch_typeProposed",0.0287

@@ -1,0 +1,5 @@
+"","accuracy","balanced_acc","thr_precision","thr_recall","thr_F1","end_F1","AUC"
+"Baseline (always Endangered)",0.793,0.5,0,0,0,0.885,0.5
+"Logistic regression",0.745,0.717,0.425,0.669,0.52,0.826,0.795
+"Decision tree",0.687,0.716,0.374,0.766,0.502,0.771,0.722
+"k-nearest neighbors",0.798,0.74,0.508,0.641,0.567,0.868,0.761
